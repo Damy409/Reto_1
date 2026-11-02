@@ -1,0 +1,21 @@
+pregunta,herramientas,respuesta,dataset_split,dificultad,id
+¿Podemos presentarnos al proceso FDLS-LP-098-2019?,"[""leer_pliego"", ""verificar_experiencia""]","No. Cumple los indicadores financieros, pero no la experiencia: con máximo 2 contratos del código 81101500 (EXP-1 y EXP-2) suma 890.7 SMMLV y el pliego exige el 150 % del presupuesto, 1.086.8 SMMLV ($600.000.000 de 2019 = 724.5 SMMLV)","[""base""]",difícil,P20
+¿Cuánto capital de trabajo tenemos?,"[""calcular_indicadores""]",$182.000.000,"[""base""]",fácil,R04
+¿Cuántos procesos hay de entidades de Santander y cuál es el más reciente?,"[""buscar_procesos""]",2; el más reciente es FLO-INFRA-SA-MC-007-2025 (2025-12-30),"[""base""]",media,R11
+¿Cuántas ofertas recibió el proceso LP-DT-CAU-003-2019 y quién lo ganó?,"[""buscar_procesos""]",51 respuestas; adjudicado a COOPERATIVA DE TRABAJO ASOCIADO SIGLO XXI por $1.217.527.123,"[""base""]",media,R13
+¿Cuál es el índice de liquidez de nuestra empresa?,"[""calcular_indicadores""]",1.7,"[""base""]",fácil,R01
+¿Qué procesos de licitación pública hay?,"[""buscar_procesos""]",FDLS-LP-098-2019 y LP-DT-CAU-003-2019,"[""base""]",fácil,R09
+¿Cuál es el presupuesto promedio de los procesos de entidades de Antioquia?,"[""buscar_procesos""]",$120.120.571 (3 procesos),"[""base""]",media,R10
+¿Cuál es el plazo de ejecución del proceso SA-004-2023?,"[""buscar_procesos""]","El plazo registrado es 0 días, lo que es un dato inconsistente o no disponible; hay que verificarlo en el pliego","[""base""]",difícil,R14
+¿Cumplimos los requisitos financieros del pliego FDLS-LP-098-2019?,"[""leer_pliego"", ""calcular_indicadores""]","Sí, cumple todos: liquidez 1.7 ≥ 1.6; endeudamiento 62 % ≤ 70 %; cobertura de intereses 2.5 ≥ 2.3; capital de trabajo $182.000.000 = 30.3 % del presupuesto ≥ 20 %; rentabilidad del patrimonio 0.105 ≥ 0.03; rentabilidad del activo 0.04 ≥ 0.03","[""base""]",difícil,P19
+¿Cuál es nuestro nivel de endeudamiento?,"[""calcular_indicadores""]",62.0 %,"[""base""]",fácil,R02
+¿Cuántos procesos de contratación directa hay en la muestra?,"[""buscar_procesos""]",9,"[""base""]",fácil,R07
+¿Cuál es el proceso con mayor presupuesto oficial y cuánto es?,"[""buscar_procesos""]","LP-DT-CAU-003-2019 de INVIAS, con $53.520.784.298","[""base""]",media,R08
+¿Qué proceso de INVIAS corresponde a la Dirección Territorial Cauca?,"[""buscar_procesos""]","LP-DT-CAU-003-2019. Aunque la entidad aparece registrada en Bogotá, la unidad de contratación es la Dirección Territorial Cauca, en Cali","[""base""]",difícil,R12
+¿Cuál es el presupuesto del proceso de Agrosavia?,"[""buscar_procesos""]",Aparece registrado en $0; el presupuesto no está disponible en los datos abiertos,"[""base""]",difícil,R15
+¿Nuestro capital de trabajo alcanza el 40 % del presupuesto del proceso FLO-INFRA-SA-MC-007-2025?,"[""buscar_procesos"", ""calcular_indicadores""]","Sí: el 40 % del presupuesto ($305.813.941) es $122.325.576 y nuestro capital de trabajo es $182.000.000, el 59.5 % del presupuesto","[""base""]",difícil,R16
+¿Qué es el SECOP II?,[],"La plataforma transaccional en línea del sistema de compra pública de Colombia, administrada por Colombia Compra Eficiente, donde las entidades estatales adelantan sus procesos de contratación","[""base""]",sin herramientas,R17
+¿Cuál es nuestra razón de cobertura de intereses?,"[""calcular_indicadores""]",2.5,"[""base""]",fácil,R03
+¿Qué códigos UNSPSC tenemos registrados en el RUP?,"[""consultar_empresa""]","72141000, 81101500, 72101500, 72152700, 72102900","[""base""]",fácil,R05
+¿Cuánto suma nuestra experiencia en contratos clasificados con el código UNSPSC 81101500?,"[""consultar_empresa""]",$950.000.000 (contratos EXP-1 y EXP-2),"[""base""]",media,R06
+¿Qué diferencia hay entre una licitación pública y una contratación directa?,[],"La licitación pública es la modalidad general y competitiva, abierta a cualquier proponente que cumpla los requisitos; la contratación directa permite escoger al contratista sin convocatoria competitiva, solo en las causales que define la ley","[""base""]",sin herramientas,R18
